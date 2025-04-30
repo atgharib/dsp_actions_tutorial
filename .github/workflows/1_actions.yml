@@ -5,7 +5,7 @@ on:
 
 jobs:
 # first job
-  hi-there-example:
+  cowsay-example:
     runs-on: ubuntu-latest
     steps:
     - name: cowsay_Install
