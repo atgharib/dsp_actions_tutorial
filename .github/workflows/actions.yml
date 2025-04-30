@@ -11,6 +11,6 @@ jobs:
       run: pip install cowsay
       run: cowsay -c cheese -t 'hey there'
     - name: cowpyExample
-     run: pip install cowpy
-     run: cowpy -c tux hi there
+      run: pip install cowpy
+      run: cowpy -c tux hi there
 
