@@ -29,7 +29,8 @@ jobs:
         - name: cowpyExample2
           run: pip install cowpy
         - name: run script2
-          run: python cowpy.py
+          run: python 2_cowpy.py
+            #git clone /workspaces/dsp_actions_tutorial/.github/workflows/2_cowpy.py
      
 
 
