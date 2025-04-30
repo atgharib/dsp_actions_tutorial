@@ -29,7 +29,7 @@ jobs:
         - name: cowpyExample2
           run: pip install cowpy
         - name: run script2
-          run: python bin/cowpy.py
+          run: python cowpy.py
      
 
 
