@@ -1,0 +1,16 @@
+name: Hi there example
+
+on:
+  push:
+
+jobs:
+  hi-there-example:
+    runs-on: ubuntu-latest
+    steps:
+    - name: cowsayExample
+      run: pip install cowsay
+      run: cowsay -c cheese -t 'hey there'
+    - name: cowpyExample
+     run: pip install cowpy
+     run: cowpy -c tux hi there
+
