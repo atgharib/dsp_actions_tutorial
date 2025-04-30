@@ -21,6 +21,15 @@ jobs:
       run: pip install cowpy
     - name: cowpyRun
       run: cowpy -c tux hi there
+  
+  cowpy-2ndScript:
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout
+        - name: cowpyExample2
+          run: pip install cowpy
+        - name: run script2
+          run: python bin/cowpy.py
      
 
 
